@@ -31,6 +31,8 @@ Aluminum can, Cardboard, Paper, Container for household chemicals, Glass bottle,
 | Plastic bag | 0.62 |
 | Container for household chemicals | 0.58 |
 
+## Training notebook (Google Colab): [`notebooks/Waste_Detection_Training.ipynb`](notebooks/Waste_Detection_Training.ipynb)
+
 ## Dataset
 Roboflow Universe "YOLO Waste Detection" (project-fpxlk/yolo-waste-detection-mroxj, CC BY 4.0), 5,460 images in 42 classes.
 Most classes had too few examples to learn, so classes with fewer than 100 training objects were removed and a few small
